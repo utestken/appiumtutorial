@@ -12,7 +12,7 @@ import java.net.URL;
 /**
  * Created by Ken Ho on 2015-11-16.
  */
-public class GmailTest {
+public class SampleTest {
     RemoteWebDriver driver;
 
     @Before
