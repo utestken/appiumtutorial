@@ -22,7 +22,7 @@ public class SampleTest {
 
         // switch between diffrent browsers, e.g. iOS Safari or Android Chrome
         // let's use the os name to differentiate, because we only use default browser in that os
-        if(device.equalsIgnoreCase("Android")){
+        if(device != null && device.equalsIgnoreCase("Android")){
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("deviceName","Android Emulator");
             capabilities.setCapability("platformVersion", "4.4");
